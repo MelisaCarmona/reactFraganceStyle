@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+:root {
+    --verde: #1CB4A0;
+    --naval: #0B1050;
+    --primary: #0275d8;
+    --success: #5cb85c;
+    --marfil: #FDEEC3;
+    --pasto: RGB(9, 52, 27);
+    --h1: Satisfy;
+}
+
+body {
+    margin: 0;
+    background-color: var(--marfil);
+}
+header {
+    background-color: RGB(9, 52, 27, .7);
+    display: grid;
+    grid-template-rows: 12vh;
+    grid-template-columns: 20% 80%;
+    grid-area: "h1 icon";
+    /* position: fixed; */
+    width: 100%;
+    /* z-index: 1000; */
+}
+
+header h1 {
+    margin: 0;
+    opacity: 1;
+    color: white;
+    font-family: var(--h1);
+    font-weight: 100;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+#menu_principal ul {
+    float: right;
+    /* margin: 20px 15px 0px 0px; */
+}
+#menu_principal ul li{
+    display: inline-block;
+    color: white;
+    padding: 20px 10px 0px 10px;
+}
